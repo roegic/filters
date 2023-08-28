@@ -1,0 +1,17 @@
+add_catch(test_image_processor
+        tests/test_image_processor.cpp
+        image_processor.cpp
+        Image/color.cpp
+        filters/filters.cpp
+        Image/image.cpp
+        Read_and_write/constants.h
+        Read_and_write/reader.cpp
+        Read_and_write/parser.cpp
+        filters/Crystallize.cpp
+        filters/Crop.cpp
+        filters/EdgeDetection.cpp
+        filters/Grayscale.cpp
+        filters/Sharpening.cpp
+        filters/Negative.cpp
+        Read_and_write/writer.cpp
+        Read_and_write/reader.cpp)

@@ -1,0 +1,24 @@
+add_executable(
+        image_processor
+        image_processor.cpp
+        Image/color.cpp
+        Image/color.h
+        filters/filters.h
+        filters/filters.cpp
+        Image/image.cpp
+        Image/image.h
+        Read_and_write/constants.h
+        Read_and_write/reader.cpp
+        Read_and_write/reader.h
+        Read_and_write/writer.cpp
+        Read_and_write/writer.h
+        Read_and_write/parser.h
+        Read_and_write/parser.cpp
+        filters/Negative.cpp
+        filters/Crop.cpp
+        filters/EdgeDetection.cpp
+        filters/Grayscale.cpp
+        filters/Sharpening.cpp
+        filters/Crystallize.cpp
+        filters/Crystallize.h
+)
